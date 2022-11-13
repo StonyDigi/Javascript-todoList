@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(background.jpg) no-repeat center/cover;
+}
+
+.container {
+    width: 700px;
+    background: rgba(245, 245, 245, 0.1);
+    backdrop-filter: blur(10px); /*Backdrop-filter : üveghatás eléréséhez*/
+    padding: 20px 80px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+
+.container input {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box; /*Hogy a szélességéhez ne adódjon hozzá a padding*/
+    border-radius: 8px;
+    color: #000;
+    outline: none;
+    border: none;
+}
+
+.container button {
+    background: grey;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    outline: none;
+    cursor: pointer;
+}
+
+/*amik bekerülnek elemek, 20px-el kerüljenek lejebb*/
+.list {
+    margin-top: 20px;
+}
+
+.todo {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.line {
+    text-decoration: line-through; /*áthúzza a szöveget!*/
+}
+
